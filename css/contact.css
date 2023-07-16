@@ -1,0 +1,35 @@
+
+#wrapper {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#address-heading {
+    font-size:40px;
+}
+
+#address {
+    text-align: center;
+}
+
+#name {
+    font-family: 'Libre Franklin',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    width:100%;
+}
+
+#comments {
+    font-size: 20px;
+    font-weight:400;
+    height:100px;
+    width:100%;
+}
+
+
+input[type="submit"] {
+    background-color: white;
+    border: none;
+    margin-left: 150px;
+}

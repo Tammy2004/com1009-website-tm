@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,800;0,900;1,600&display=swap');
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-weight: 1000;
+  line-height: 30px;
+  font-size: 400%;
+  font-family: 'Playfair Display', serif;
+
+
+}
+
+header {
+  background-color: rgba(220, 214, 247, 1);
+  width: 100%;
+  padding-bottom: 20px;
+}
+.p1 {
+  margin: 0;
+  padding: 20px 0px 0px 0px;
+  font-size: 18px;
+}
+
+
+img {
+  padding: 0 20px 0 20px;
+  /* width: 300px; */
+  height: 100%;
+  width:250px;
+  /* float: right; */
+  /* padding-right: 250px; */
+  /* padding-bottom: 300px; */
+
+  /* position:block; */
+  margin:auto;
+  filter: blur(8px); /* remove later */
+
+}
+
+.name-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+
+}
+
+#name {
+  font-family: 'Libre Franklin';
+  font-weight: 100;
+  font-style: thin;
+  font-size: 70px;
+}
+
+#subname {
+  font-family: 'Libre Franklin';
+  font-weight: 100;
+  font-style: thin;
+  font-size: 50px;
+}
+
+.content {
+  justify-content: center;
+  display: inline;
+  width:100%;
+  margin-top:10px;
+  background-color: rgb(243 226 226);
+  padding-top: 20px;
+  padding-bottom:20px;
+
+  justify-content: space-evenly;
+}
+.name-box {
+  display: flex;
+}
+
+#tammy {
+  align-items: center;
+  display:flex;
+
+}
+
+.content{
+  display:flex;
+
+}
+
+/* navigation bar */
+
+nav {
+  margin: 0;
+  padding: 5px 5%;
+  font-size: 1.1em;
+  
+}
+
+nav ul {
+  list-style: none;
+  list-style-position: in;
+  overflow: hidden;
+  
+}
+ nav ul li {
+  padding-right: 50px;
+
+}
+
+
+.nav-rightalign {
+  display: flex;
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+nav a {
+  text-decoration: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+}
+
+nav a:hover {
+  transition-delay: 0.4s;
+  transition:ease-in;
+  color: rgba(238, 108, 77, 1);
+} 
+/* resizing for mobile */
+@media screen and (max-device-width: 600px){
+
+}
+
+/* footer */
+
+
+footer {
+  padding: 0;
+
+}
+
+.footer-nav {
+  display: flex;
+  list-style-type: none;
+  position: fixed;
+  float: bottom;
+  left: 0%;
+  bottom:0%;
+  padding-top:10px;
+  width: 100%;
+  overflow: hidden;
+  padding-inline-start: 0%;
+  background-color: rgb(78, 76, 103);
+  color:white;
+  min-height: 280px ;
+  font-size: 10px;
+}
+
+table {
+  color: rgba(217, 217, 217, 1);
+  border-spacing: 5px;
+  width:50%;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+th {
+  text-align: center;
+  width: 50%;
+  height: 20px;
+  padding:0px 20px 0 20px;
+}
+
+td {
+  height: 0.5em;
+  font-size: 15px;
+  background-color: red;
+
+}

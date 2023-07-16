@@ -1,0 +1,19 @@
+#h1-style {
+    font-size:40px;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+#figma {
+    width: 400px;
+}
+#figma-mob {
+    width:150px;
+}
+
+#th-style {
+    color:black;
+    font-weight: 700;
+}

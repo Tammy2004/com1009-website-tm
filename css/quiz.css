@@ -1,0 +1,96 @@
+#title-style{
+    text-align: center;
+    color:#5A5485;
+    /* flex-direction: column; */
+}
+
+.wrapper {
+    display:flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    /* justify-content: center;
+    position:relative; */
+
+}
+
+.q-style{
+    color:black;
+}
+
+#chicken {
+    width:200px;
+    padding-bottom: 10px;
+}
+
+#korea {
+    width:200px;
+    padding-bottom: 10px;
+
+}
+
+#jeebanoff {
+    width:200px;
+    padding-bottom: 10px;
+
+}
+
+#questions {
+    justify-content:center;
+}
+
+#food {
+    padding-right: 10%;
+}
+
+#korea-1 {
+    padding-right: 28%;
+}
+
+
+#button-right {
+    transition: 200ms;
+
+}
+
+#button-right:focus {
+    background-color: #79c9a2;
+}
+
+td {
+    padding:0px 0px 20px 20px;
+}
+
+/* th {
+    text-align: center;
+    padding-left: 150px;
+} */
+
+li {
+    list-style: none;
+    overflow: hidden;
+    float: right;
+    padding-right: 20px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+button:hover {
+    background-color:#5A5485;
+    color: white;
+}
+
+
+@media screen and (max-width: 800px){
+    button {
+        font-size: 2.2vw;
+    }
+}
+

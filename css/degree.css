@@ -1,0 +1,125 @@
+#ruby {
+    display:flex;
+    /* align-items: flex-end; */
+    margin: 0;
+    width:200px;
+    padding-left: 75px;
+}
+
+#math {
+    display:flex;
+    width:300px;
+    padding-left: 50px;
+}
+
+#java {
+    display: flex;
+    width:300px;
+    padding-left: 150px;
+}
+
+#miro {
+    display: flex;
+    width:300px;
+    padding-left: 130px;
+}
+
+#binary {
+    display: flex;
+    width:300px;
+    padding-left: 22%;
+}
+
+#website {
+    display: flex;
+    width: 300px;
+    padding-left: 30px;
+}
+
+#japan {
+    display: flex;
+    width: 300px;
+    padding-left: 20px;
+}
+
+#article-footer {
+    margin-bottom:0px;
+    padding-bottom: 20px;
+}
+
+.article-heading {
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: 300ms;
+}
+
+
+article {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+p {
+    align-content: center;
+    text-align: center;
+}
+
+figure {
+    align-items: center;
+}
+
+
+section {
+    text-align: center;
+
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    display:block;
+    height:auto;
+}
+
+.bg-color {
+    background-color:rgb(243 226 226);
+    margin:20 0 20 0;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#section-align {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.underline:hover {
+    text-decoration-color:#894665;
+
+}
+
+a {
+    color: inherit;
+    text-decoration-color: inherit;
+}
+
+#degree {
+    font-family: 'Playfair Display',serif;
+    font-size: 2.5vw;
+    color: #5A5485;
+}
