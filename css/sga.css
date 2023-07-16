@@ -1,0 +1,68 @@
+#sga-content{
+    align-items: inherit;
+}
+
+#sga-title {
+    padding-top:10px;
+}
+
+#wrapper {
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#sga-subitems {
+    color: black;
+}
+#ex-subitems {
+    color: black;
+    text-align: center;
+}
+#examples {
+    flex-direction: column;
+}
+
+.learn {
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    border-collapse: collapse;
+
+}
+
+tr {
+    border-bottom: 1px solid black ;
+}
+
+
+
+th {
+    text-align: left;
+}
+#td-style {
+    text-align: center;
+}
+
+td {
+    text-align: right;    
+    padding:5px;
+}
+
+a {
+    color: inherit;
+    text-decoration-color: inherit;
+}
+
+.h1-style{
+    color:#5A5485;
+    text-decoration: underline;
+    transition: 300ms;
+    text-decoration-color: transparent;
+}
+
+.h1-style:hover{
+    text-decoration-color: #894665;
+
+}

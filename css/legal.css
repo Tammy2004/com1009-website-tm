@@ -1,0 +1,30 @@
+#h1-style {
+    font-size: 40px;
+}
+
+
+
+.content {
+    flex-direction: column;
+
+}
+
+#align {
+    
+    display:inline;
+
+}
+
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    padding-bottom: 10px;
+}
